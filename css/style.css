@@ -1,0 +1,565 @@
+/* general */
+.section-head h2{
+    font-size: 40px;
+}
+.section-head .line
+{
+    width: 160px;
+    background-color: #ccc;
+    height: 2px;
+    margin:12px auto;
+}
+.section-head .line span{
+    width: 60px;
+    height: 4px;
+    margin: auto;
+    position: relative;
+    bottom: 2px;
+    background-color:#7cb62f;
+}
+.section-head p{
+    width: 500px;
+    margin: auto;
+    color: #888;
+    line-height: 1.5;
+}
+/* start header */
+.header
+{
+    background-image: url(../images/home/skill-bg.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.header .layer
+{
+    inset: 0;
+    background-color: rgba(0, 0, 0,.5);
+}
+.btn-success{
+    background-color: #7cb62f;
+    border: none;
+    padding: 10px;
+    transition: all 1s;
+}
+.btn-success:hover{
+    background-color: red;
+}
+nav{
+    transition: background-color 1s;
+    z-index: 99999;
+}
+.navbar-toggler
+{
+    background-color: #fff !important;
+   
+}
+.nav-link
+{
+    text-transform: uppercase;
+    color: #fff !important;
+    transition: all 1s;
+}
+.nav-link:hover{
+    color: red !important;
+}
+/* end header */
+/* start about */
+.about-content a{
+    transition: all 1s;
+}
+.about-content a:hover{
+    color: red !important;
+}
+/* end about */
+/* start services */
+.services
+{
+   background-color: #f7f7f7;
+}
+.services-item
+{
+    background-color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 20px;
+    transition: all 1s;
+}
+.services-item:hover{
+    background-color: #7cb62f;
+    color: #fff;
+}
+.services-item:hover p{
+    color: #fff;
+}
+.services-item h4{
+    margin-bottom: 10px;
+}
+.services-item i{
+background-color: #7cb62f;
+color: #fff;
+width: 50px;
+height: 50px;
+line-height: 50px;
+border-radius: 50%;
+border: 2px solid #ccc;
+margin-bottom: 10px;
+}
+.services-item p{
+    font-size: 17px;
+    color: #888;
+    transition: all 1s;
+}
+/* end services */
+/* start counter */
+.counter
+{
+    background-color:rgb(34, 34, 34);
+}
+.counter i{
+    border: 1px solid green;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+   text-align: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.counter span{
+    display: block;
+    font-size: 20px;
+}
+.counter p{
+    text-transform: capitalize;
+    color: #ccc;
+}
+/* end counter */
+/* start portfolio */
+.portfolio-buttons
+{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.portfolio button{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+.active-btn
+{
+    background-color: #7cb62f !important;
+}
+.portfolio .viewMore
+{
+    width: 200px;
+    padding: 10px;
+    border: none;
+    margin: auto;
+    display: block;
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+}
+/* end portfolio */
+/* start experts */
+.experts
+{
+    background-color:rgb(34, 34, 34);
+    color: #fff;
+}
+.experts-item
+{
+    text-align: center;
+}
+.pricing
+{
+    background-color: #f7f7f7;
+}
+/* end experts */
+/* start pricing */
+.pricing-item
+{
+    background-color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    transition: all 1s ;
+}
+.pricing-item h3{
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+    transition: all .5s;
+}
+.pricing-item span{
+    display: block;
+    margin: 7px 0;
+}
+.pricing-item-plan
+{
+    font-size: 15px;
+   font-weight: normal;
+}
+.pricing-item p 
+{
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    font-size: 18px;
+}
+.pricing-item ul li{
+    padding: 5px;
+}
+.pricing-item button
+{
+    width: 100%;
+   background-color: #333;
+   color: #fff;
+   border: none;
+   padding: 10px;
+   transition: all .5s;
+}
+.pricing-item:hover{
+  margin-top: -5px;
+}
+.pricing-item:hover h3
+,
+.pricing-item:hover button{
+background-color: #7cb62f;
+}
+/* end pricing */
+/* start team */
+.team{
+    text-align: center;
+    padding: 10px;
+}
+.team-item h2{
+    margin-bottom: 0;
+}
+.team-item p{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    transition: all 1s;
+}
+.team-item:hover p{
+    background-color: #7cb62f;
+}
+/* end team */
+/* start business */
+.business
+{
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+}
+.business button{
+     padding: 10px 20px;   
+}
+/* end business */
+/* start choose */
+.choose{
+    background-color: #f7f7f7;
+}
+.choose-content ul li{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.choose-info-content{
+    background-color: #fff;
+}
+.choose-info-content img{
+    width: 40%;
+    float: left;
+    padding-right: 10px;
+}
+.clr{
+    clear: both;
+}
+.choose-info-content p{
+    padding-bottom: 10px;
+    line-height: 1.6;
+   color: #888;
+}
+.choose-info .two,.three
+{
+display: none;
+}
+.choose-video
+{
+    background-color: #333;
+    height: 375px;
+    text-align: center;
+    color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.choose-video i{
+    background-color: red;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+/* end choose */
+/* start testmonial */
+.testmonial
+{
+    background-color:#333;
+    color: #fff;
+}
+.testmonial-item
+{
+    background-color:#000;
+    padding: 15px;
+    text-align: center;
+}
+.testmonial-item img{
+    border-radius: 50%;   
+}
+.testmonial-item h2{
+    padding: 5px 0;
+    margin-bottom: 0;
+}
+.testmonial-item p{
+    margin-bottom: 0;
+    padding-bottom: 5px ;
+    line-height: 1.5;
+    color: #888;
+}
+.testmonial-item span{
+    padding: 5px 0;
+    display: block;
+    color: #888;
+}
+ .testmonial-item i 
+ {
+    color: yellow;
+ }
+ /* end testmonial */
+ /* start blog */
+ .blog-item
+ {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+ }
+ .blog-item h5{
+    cursor: pointer;
+    transition: all 1s;
+ }
+ .blog-item p{
+    line-height: 1.6;
+ }
+ .blog-item h5:hover{
+    color: rgb(209, 10, 50)
+ }
+ /* end blog */
+ /* start pleasure */
+.pleasure
+{
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+}
+.carousel-item i
+{
+    color: #7cb62f;
+    margin-bottom: 10px;
+}
+.carousel-item p{
+    color: #ccc;
+}
+.carousel-item p span{
+    color: #7cb62f;
+}
+.carousel-indicators [data-bs-target]
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #09c;
+}
+/* end pleasure */
+/* start project */
+.project
+{
+    background-color: #7cb62f;
+}
+.project .btn-dark{
+    border: none;
+    padding: 10px 20px;
+    transition: all 1s;
+}
+.project .btn-dark:hover
+{
+    background-color: red !important;
+  
+}
+/* end project */
+/* start contact */
+.contact
+{
+    background-color: #f7f7f7;
+}
+.contact .contact-info p{
+    color: #888;
+    line-height: 1.6;
+}
+.contact-info i{
+    border: 1px solid ;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin:0 10px 10px 0;
+    background-color: #fff;
+    color: #7cb62f;
+  transition: all 1s;
+}
+.contact-info i:hover{
+    background-color: #7cb62f;
+    color: #fff;
+}
+.contact-info span{
+    text-transform: capitalize;
+}
+.contact form .btn-danger
+{
+    background-color: #7cb62f;
+    border: none;
+    padding: 10px;
+    text-transform: capitalize;
+    width: 150px;
+    margin:10px auto;
+   display: block;
+   transition: 1s;
+}
+.contact form .btn-danger:hover{
+    background-color: rgb(219, 24, 24);
+}
+/* end contact */
+/* start arrow to up */
+.arrow-icon i{
+    position: fixed;
+    text-align: center;
+     bottom: 20px;
+     right: 20px;
+     border: 1px solid crimson;
+     width: 40px;
+     height: 40px;
+     line-height: 40px; 
+     border-radius: 50%; 
+     display: none;
+    }
+    /* end arrow to up */
+/* start footer */
+.footer
+{
+    background-color: #333;
+}
+.footer-item
+{
+    padding-bottom: 50px ;
+}
+.footer-item h4
+{
+color: #fff;
+border-bottom: 1px solid #888;
+padding: 15px 0;
+margin-bottom: 20px;
+}
+.footer-item li{
+    border-bottom: 1px solid #888;
+    padding: 5px;
+}
+.footer-item .icon-social{
+    border: none;
+    padding: 8px;
+    color: #fff;
+    border-radius: 3px;
+    transition: all 1s;
+}
+.footer-item .fa-facebook
+{
+    background-color: blue;
+}
+.footer-item .fa-twitter
+{
+    background-color: #09c;
+}
+.footer-item .fa-linkedin
+{
+    background-color: #09c;
+}
+.footer-item .fa-youtube
+{
+    background-color: red;
+}
+.footer-item .fa-google
+{
+    background-color: orange;
+}
+.footer-item i:hover
+{
+    background-color: black;
+}
+.footer-item span{
+    color: #ccc;
+}
+.footer-item button
+{
+    margin-bottom: 10px;
+    color:#fff ;
+    transition: all 1s;
+}
+.footer-item img{
+    margin-bottom: 5px;
+}
+.footer-desc
+{
+    background-color: #000;
+    color: #fff;
+}
+.footer-desc p{
+    margin: 0;
+    color: #ccc;
+    text-transform: capitalize;
+   
+}
+.footer-desc i{
+    color: #7cb62f;
+    transition: all 1s;
+}
+
+.footer-desc ul,.footer-desc p{
+    margin: 0;
+}
+.footer-desc li{
+    color: #ccc;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 1s;
+}
+.footer-desc i:hover
+{
+    color: crimson;
+}
+.footer-desc li:hover
+{
+    color: crimson;
+}
+/* end footer */
+/* /media query */
+@media (max-width:575px){
+    .footer-desc ul
+    {
+        display: block !important;
+    }
+}
