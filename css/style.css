@@ -1,4 +1,9 @@
 /* general */
+:root{
+    --mainColor:#7cb62f;
+    --whiteColor:#fff;
+    --redColor:red;
+}
 .section-head h2{
     font-size: 40px;
 }
@@ -15,11 +20,9 @@
     margin: auto;
     position: relative;
     bottom: 2px;
-    background-color:#7cb62f;
+    background-color:var(--mainColor);
 }
 .section-head p{
-    width: 500px;
-    margin: auto;
     color: #888;
     line-height: 1.5;
 }
@@ -36,13 +39,13 @@
     background-color: rgba(0, 0, 0,.5);
 }
 .btn-success{
-    background-color: #7cb62f;
+    background-color: var(--mainColor);
     border: none;
     padding: 10px;
     transition: all 1s;
 }
 .btn-success:hover{
-    background-color: red;
+    background-color: var(--redColor);
 }
 nav{
     transition: background-color 1s;
@@ -50,17 +53,17 @@ nav{
 }
 .navbar-toggler
 {
-    background-color: #fff !important;
+    background-color: var(--whiteColor) !important;
    
 }
 .nav-link
 {
     text-transform: uppercase;
-    color: #fff !important;
+    color: var(--whiteColor) !important;
     transition: all 1s;
 }
 .nav-link:hover{
-    color: red !important;
+    color: var(--redColor) !important;
 }
 /* end header */
 /* start about */
@@ -68,7 +71,7 @@ nav{
     transition: all 1s;
 }
 .about-content a:hover{
-    color: red !important;
+    color: var(--redColor) !important;
 }
 /* end about */
 /* start services */
@@ -78,25 +81,25 @@ nav{
 }
 .services-item
 {
-    background-color: #fff;
-    border: 1px solid #fff;
+    background-color: var(--whiteColor);
+    border: 1px solid var(--whiteColor);
     text-align: center;
     padding: 20px;
     transition: all 1s;
 }
 .services-item:hover{
-    background-color: #7cb62f;
-    color: #fff;
+    background-color: var(--mainColor);
+    color: var(--whiteColor);
 }
 .services-item:hover p{
-    color: #fff;
+    color: var(--whiteColor);
 }
 .services-item h4{
     margin-bottom: 10px;
 }
 .services-item i{
-background-color: #7cb62f;
-color: #fff;
+background-color:var(--mainColor);
+color: var(--whiteColor);
 width: 50px;
 height: 50px;
 line-height: 50px;
@@ -146,13 +149,13 @@ margin-bottom: 10px;
     padding: 10px;
     border: none;
     background-color: #000;
-    color: #fff;
+    color: var(--whiteColor);
     text-transform: capitalize;
     margin: 20px 0;
 }
 .active-btn
 {
-    background-color: #7cb62f !important;
+    background-color: var(--mainColor) !important;
 }
 .portfolio .viewMore
 {
@@ -162,7 +165,7 @@ margin-bottom: 10px;
     margin: auto;
     display: block;
     background-color: #000;
-    color: #fff;
+    color: var(--whiteColor);
     text-transform: capitalize;
 }
 /* end portfolio */
@@ -170,7 +173,7 @@ margin-bottom: 10px;
 .experts
 {
     background-color:rgb(34, 34, 34);
-    color: #fff;
+    color: var(--whiteColor);
 }
 .experts-item
 {
@@ -184,14 +187,14 @@ margin-bottom: 10px;
 /* start pricing */
 .pricing-item
 {
-    background-color: #fff;
+    background-color: var(--whiteColor);
     margin-top: 20px;
     text-align: center;
     transition: all 1s ;
 }
 .pricing-item h3{
     background-color: #333;
-    color: #fff;
+    color: var(--whiteColor);
     padding: 5px 0;
     transition: all .5s;
 }
@@ -217,7 +220,7 @@ margin-bottom: 10px;
 {
     width: 100%;
    background-color: #333;
-   color: #fff;
+   color: var(--whiteColor);
    border: none;
    padding: 10px;
    transition: all .5s;
@@ -228,7 +231,7 @@ margin-bottom: 10px;
 .pricing-item:hover h3
 ,
 .pricing-item:hover button{
-background-color: #7cb62f;
+background-color: var(--mainColor);
 }
 /* end pricing */
 /* start team */
@@ -241,7 +244,7 @@ background-color: #7cb62f;
 }
 .team-item p{
     background-color: #333;
-    color: #fff;
+    color: var(--whiteColor);
     padding: 20px 0;
     margin-top: 5px;
     display: flex;
@@ -249,7 +252,7 @@ background-color: #7cb62f;
     transition: all 1s;
 }
 .team-item:hover p{
-    background-color: #7cb62f;
+    background-color: var(--mainColor);
 }
 /* end team */
 /* start business */
@@ -257,7 +260,7 @@ background-color: #7cb62f;
 {
     background-color: #333;
     text-align: center;
-    color: #fff;
+    color: var(--whiteColor);
 }
 .business button{
      padding: 10px 20px;   
@@ -272,7 +275,7 @@ background-color: #7cb62f;
     cursor: pointer;
 }
 .choose-info-content{
-    background-color: #fff;
+    background-color: var(--whiteColor);
 }
 .choose-info-content img{
     width: 40%;
@@ -296,13 +299,13 @@ display: none;
     background-color: #333;
     height: 375px;
     text-align: center;
-    color: #fff;
+    color: var(--whiteColor);
    display: flex;
    justify-content: center;
    align-items: center;
 }
 .choose-video i{
-    background-color: red;
+    background-color: var(--redColor);
     padding: 10px 15px;
     cursor: pointer;
 }
@@ -311,7 +314,7 @@ display: none;
 .testmonial
 {
     background-color:#333;
-    color: #fff;
+    color: var(--whiteColor);
 }
 .testmonial-item
 {
@@ -365,18 +368,18 @@ display: none;
 {
     background-color: #333;
     text-align: center;
-    color: #fff;
+    color: var(--whiteColor);
 }
 .carousel-item i
 {
-    color: #7cb62f;
+    color: var(--mainColor);
     margin-bottom: 10px;
 }
 .carousel-item p{
     color: #ccc;
 }
 .carousel-item p span{
-    color: #7cb62f;
+    color: var(--mainColor);
 }
 .carousel-indicators [data-bs-target]
 {
@@ -389,7 +392,7 @@ display: none;
 /* start project */
 .project
 {
-    background-color: #7cb62f;
+    background-color: var(--mainColor);
 }
 .project .btn-dark{
     border: none;
@@ -398,7 +401,7 @@ display: none;
 }
 .project .btn-dark:hover
 {
-    background-color: red !important;
+    background-color: var(--redColor) !important;
   
 }
 /* end project */
@@ -419,20 +422,20 @@ display: none;
     text-align: center;
     line-height: 40px;
     margin:0 10px 10px 0;
-    background-color: #fff;
-    color: #7cb62f;
+    background-color: var(--whiteColor);
+    color: var(--mainColor);
   transition: all 1s;
 }
 .contact-info i:hover{
-    background-color: #7cb62f;
-    color: #fff;
+    background-color: var(--mainColor);
+    color: var(--whiteColor);
 }
 .contact-info span{
     text-transform: capitalize;
 }
 .contact form .btn-danger
 {
-    background-color: #7cb62f;
+    background-color: var(--mainColor);
     border: none;
     padding: 10px;
     text-transform: capitalize;
@@ -470,7 +473,7 @@ display: none;
 }
 .footer-item h4
 {
-color: #fff;
+color: var(--whiteColor);
 border-bottom: 1px solid #888;
 padding: 15px 0;
 margin-bottom: 20px;
@@ -482,7 +485,7 @@ margin-bottom: 20px;
 .footer-item .icon-social{
     border: none;
     padding: 8px;
-    color: #fff;
+    color: var(--whiteColor);
     border-radius: 3px;
     transition: all 1s;
 }
@@ -500,7 +503,7 @@ margin-bottom: 20px;
 }
 .footer-item .fa-youtube
 {
-    background-color: red;
+    background-color: var(--redColor);
 }
 .footer-item .fa-google
 {
@@ -516,7 +519,7 @@ margin-bottom: 20px;
 .footer-item button
 {
     margin-bottom: 10px;
-    color:#fff ;
+    color:var(--whiteColor) ;
     transition: all 1s;
 }
 .footer-item img{
@@ -525,7 +528,7 @@ margin-bottom: 20px;
 .footer-desc
 {
     background-color: #000;
-    color: #fff;
+    color: var(--whiteColor);
 }
 .footer-desc p{
     margin: 0;
@@ -534,10 +537,9 @@ margin-bottom: 20px;
    
 }
 .footer-desc i{
-    color: #7cb62f;
+    color: var(--mainColor);
     transition: all 1s;
 }
-
 .footer-desc ul,.footer-desc p{
     margin: 0;
 }
