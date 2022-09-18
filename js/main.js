@@ -88,16 +88,13 @@ $(document).ready(function(){
 
 //  pop up video
 $('.pop').magnificPopup({
-   // items:{
-   //    src:'https://youtu.be/dZDVILrxIZE'
-   // },
    type: 'iframe'
  });
 
 //  arrow to up
 $('.icon-up').click(function()
 {
-   $('body,html').animate({scrollTop:0},500)
+   $('body,html').animate({scrollTop:0},3000)
 })
 
 
