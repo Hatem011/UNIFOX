@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Montserrat:ital@1&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
 /* general */
 :root{
     --mainColor:#7cb62f;
     --whiteColor:#fff;
     --redColor:red;
+}
+*{
+font-family: 'Poppins', sans-serif;
 }
 .section-head h2{
     font-size: 40px;

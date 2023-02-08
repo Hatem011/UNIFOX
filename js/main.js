@@ -29,9 +29,14 @@ var aboutOffset=$('.about').offset().top;
 //  smooth scroll
 $('.nav-link').click(function()
 {
-   currentHref=$(window).attr('href');
-  var currentOffset=$(currentHref).offset().top;
-  $('body,html').animate({scrollTop:currentOffset},2000)
+   $(this).addClass('active-btn')
+   $(this).parent().siblings().find('a').removeClass('active-btn')
+    let currentHref=$(this).attr("href")
+    let currentOffset=$(currentHref).offset().top
+    $("html,body").animate({scrollTop:currentOffset - 55},1000)
+//    currentHref=$(window).attr('href');
+//   var currentOffset=$(currentHref).offset().top;
+//   $('body,html').animate({scrollTop:currentOffset},2000)
  
 })
 // active button portfolio
